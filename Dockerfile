@@ -1,4 +1,4 @@
-FROM ubuntu:resolute-20251101
+FROM ubuntu:26.04
 
 RUN apt-get update
 RUN apt-get install -y python3
